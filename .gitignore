@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+*.swp
+
+# Generated surface data and result folders
+outputs/
+generated_surfaces_820x345mm/
+*.csv
+*.png
+*.jpg
+*.svg
+
+# Abaqus input, databases, logs, and temporary files
+*.inp
+*.odb
+*.odb_f
+*.sim
+*.simdir/
+*.stt
+*.mdl
+*.res
+*.pac
+*.abq
+*.sel
+*.prt
+*.msg
+*.sta
+*.dat
+*.com
+*.log
+*.lck
+*.023
+*.SMABulk
+
+# OS files
+Thumbs.db
+.DS_Store
+
