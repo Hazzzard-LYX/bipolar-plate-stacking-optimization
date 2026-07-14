@@ -36,5 +36,6 @@
 | 32 | `32-45片合成曲面高泊松比四角定位三排序Abaqus参数实验` | Prepared for distributed run; not yet executed |
 | 33 | `33-60片合成曲面高压高刚度边缘导向三排序Abaqus参数实验` | Prepared for distributed run; not yet executed |
 | 34 | `34-15片双极板精确算法三排序Abaqus显式小滑移摩擦恒压接触分析` | Completed; exact DP restores strict trend, but old exp28 min remains better |
+| 35 | `35-24片合成曲面精确MILP三排序Abaqus参数实验` | Completed; exact MILP proves exp30 orders globally optimal and deformation metrics support the trend |
 
 The status labels describe the latest known interpretation of each experiment. Solver outputs are deliberately not part of this scripts repository.
