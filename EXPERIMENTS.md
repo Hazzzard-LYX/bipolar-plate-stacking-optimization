@@ -30,10 +30,11 @@
 | 26 | `26-15片双极板三种排序Abaqus显式全积分壳恒压接触分析` | Validated full-integration frictionless reference |
 | 27 | `27-15片双极板三种排序Abaqus显式摩擦耦合恒压接触分析` | Finite-sliding friction rejected due distortion/energy |
 | 28 | `28-15片双极板三种排序Abaqus显式小滑移摩擦恒压接触分析` | Validated small-sliding friction reference |
-| 29 | `29-15片低压高刚度角点定位三排序Abaqus参数实验` | Prepared for distributed run; not yet executed |
-| 30 | `30-24片合成曲面中压三点定位三排序Abaqus参数实验` | Prepared for distributed run; not yet executed |
+| 29 | `29-15片低压高刚度角点定位三排序Abaqus参数实验` | Completed; min order best, natural/max mixed by metric |
+| 30 | `30-24片合成曲面中压三点定位三排序Abaqus参数实验` | Completed; strongest strict min-natural-max trend so far |
 | 31 | `31-30片合成曲面中高压双锚点三排序Abaqus参数实验` | Prepared for distributed run; not yet executed |
 | 32 | `32-45片合成曲面高泊松比四角定位三排序Abaqus参数实验` | Prepared for distributed run; not yet executed |
 | 33 | `33-60片合成曲面高压高刚度边缘导向三排序Abaqus参数实验` | Prepared for distributed run; not yet executed |
+| 34 | `34-15片双极板精确算法三排序Abaqus显式小滑移摩擦恒压接触分析` | Completed; exact DP restores strict trend, but old exp28 min remains better |
 
 The status labels describe the latest known interpretation of each experiment. Solver outputs are deliberately not part of this scripts repository.
