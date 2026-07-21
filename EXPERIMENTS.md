@@ -40,5 +40,6 @@
 | 36 | `36-15片真实双极板贪心三排序260kN玻纤端板Abaqus实验` | Completed; greedy min improves overall CPRESS, while natural/max remain mixed under deformable GFRP endplates |
 | 37 | `37-15片真实双极板精确三排序260kN玻纤端板Abaqus实验` | Completed; exact Held-Karp proves exp36 greedy orders globally optimal/maximal, with identical Abaqus results |
 | 38 | `38-15片真实双极板实验34精确序列260kN玻纤端板Abaqus实验` | Completed; Experiment 34 orders restore strict CV/RMSE trend, while natural/max remain mixed in other metrics |
+| 39 | `39-15片真实双极板实验34精确序列260kN刚性端板Abaqus实验` | Completed; rigid endplates make min best in all main metrics and restore the expected trend in five pressure indicators |
 
 The status labels describe the latest known interpretation of each experiment. Solver outputs are deliberately not part of this scripts repository.

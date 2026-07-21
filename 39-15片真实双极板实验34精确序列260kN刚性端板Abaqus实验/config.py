@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+EXPERIMENT_ID = 39
+DESCRIPTION = "15 measured plates, Experiment 34 exact-DP orders, 260 kN load, 50 mm rigid endplates"
+
+PLATE_COUNT = 15
+USE_ORIGINAL_SURFACES = True
+RANDOM_SEED = 39015
+LATENT_JITTER_INDEX = 0.0
+SMOOTH_PERTURB_MM = 0.0
+LOCAL_NOISE_MM = 0.0
+
+PLATE_LENGTH_M = 0.820
+PLATE_WIDTH_M = 0.345
+TOTAL_LOAD_N = 260000.0
+NOMINAL_PRESSURE_PA = TOTAL_LOAD_N / (PLATE_LENGTH_M * PLATE_WIDTH_M)
+
+# Bipolar-plate settings are inherited from Experiment 30.
+SURFACE_E = 85.0e9
+SURFACE_NU = 0.32
+SURFACE_RHO = 4500.0
+PLATE_THICKNESS_M = 0.00018
+FRICTION_COEFFICIENT = 0.18
+CONSTRAINT_MODE = "three_point"
+
+CONTACT_STIFFNESS_PA_PER_M = 5.0e9
+CONTACT_DAMPING_PA_S_PER_M = 1.0e5
+DAMPING_ALPHA = 100.0
+RAMP_TIME_S = 0.60
+STEP_TIME_S = 2.00
+
+GRID_CELLS_X = 16
+GRID_CELLS_Y = 8
+INITIAL_CONTACT_GAP_M = 1.0e-5
+GRAVITY = 9.8
+
+# Experiment 30-style discrete rigid endplates. Thickness is used only for
+# reference-point placement and the top-endplate concentrated mass.
+ENDPLATE_THICKNESS_M = 0.050
+ENDPLATE_DENSITY = 7850.0
