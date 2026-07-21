@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+EXPERIMENT_ID = 38
+DESCRIPTION = "15 measured plates, Experiment 34 exact-DP orders, 260 kN load, 100 mm GFRP endplates"
+
+PLATE_COUNT = 15
+USE_ORIGINAL_SURFACES = True
+RANDOM_SEED = 38015
+LATENT_JITTER_INDEX = 0.0
+SMOOTH_PERTURB_MM = 0.0
+LOCAL_NOISE_MM = 0.0
+
+PLATE_LENGTH_M = 0.820
+PLATE_WIDTH_M = 0.345
+TOTAL_LOAD_N = 260000.0
+NOMINAL_PRESSURE_PA = TOTAL_LOAD_N / (PLATE_LENGTH_M * PLATE_WIDTH_M)
+
+# Bipolar-plate settings are inherited from Experiment 30.
+SURFACE_E = 85.0e9
+SURFACE_NU = 0.32
+SURFACE_RHO = 4500.0
+PLATE_THICKNESS_M = 0.00018
+FRICTION_COEFFICIENT = 0.18
+CONSTRAINT_MODE = "three_point"
+
+CONTACT_STIFFNESS_PA_PER_M = 5.0e9
+CONTACT_DAMPING_PA_S_PER_M = 1.0e5
+DAMPING_ALPHA = 100.0
+RAMP_TIME_S = 0.60
+STEP_TIME_S = 2.00
+
+GRID_CELLS_X = 16
+GRID_CELLS_Y = 8
+INITIAL_CONTACT_GAP_M = 1.0e-5
+GRAVITY = 9.8
+
+# Equivalent isotropic G10/FR-4 engineering approximation. Replace these
+# values with the tested endplate grade when its datasheet is available.
+ENDPLATE_THICKNESS_M = 0.100
+ENDPLATE_CELLS_Z = 4
+ENDPLATE_E = 20.0e9
+ENDPLATE_NU = 0.25
+ENDPLATE_RHO = 1850.0

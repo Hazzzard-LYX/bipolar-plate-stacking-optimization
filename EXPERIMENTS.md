@@ -37,5 +37,8 @@
 | 33 | `33-60片合成曲面高压高刚度边缘导向三排序Abaqus参数实验` | Prepared for distributed run; not yet executed |
 | 34 | `34-15片双极板精确算法三排序Abaqus显式小滑移摩擦恒压接触分析` | Completed; exact DP restores strict trend, but old exp28 min remains better |
 | 35 | `35-24片合成曲面精确MILP三排序Abaqus参数实验` | Completed; exact MILP proves exp30 orders globally optimal and deformation metrics support the trend |
+| 36 | `36-15片真实双极板贪心三排序260kN玻纤端板Abaqus实验` | Completed; greedy min improves overall CPRESS, while natural/max remain mixed under deformable GFRP endplates |
+| 37 | `37-15片真实双极板精确三排序260kN玻纤端板Abaqus实验` | Completed; exact Held-Karp proves exp36 greedy orders globally optimal/maximal, with identical Abaqus results |
+| 38 | `38-15片真实双极板实验34精确序列260kN玻纤端板Abaqus实验` | Completed; Experiment 34 orders restore strict CV/RMSE trend, while natural/max remain mixed in other metrics |
 
 The status labels describe the latest known interpretation of each experiment. Solver outputs are deliberately not part of this scripts repository.
